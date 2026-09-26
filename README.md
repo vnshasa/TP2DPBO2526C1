@@ -219,8 +219,9 @@ Data bertambah
 Keluar
 
 ## Struktur Folder
+
+```text
 TP2DPBO2526C1/
-│
 ├── CPP/
 │   ├── Bioskop.h
 │   ├── Cinema.h
@@ -249,6 +250,12 @@ TP2DPBO2526C1/
 │   ├── index.php
 │   ├── testcase.txt
 │   └── gambar/
+│       ├── elemental.png
+│       ├── hoppers.png
+│       ├── inside_out_2.png
+│       ├── maleficent.png
+│       ├── moana_2.png
+│       └── zootopia_2.png
 │
 ├── Dokumentasi/
 │   ├── CPP
