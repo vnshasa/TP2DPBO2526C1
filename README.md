@@ -19,7 +19,7 @@ Cinema
    v
 Premiere
 
-Class dan Atribut
+## Class dan Atribut
 1. Bioskop
 Class dasar yang menyimpan informasi umum bioskop.
 Atribut:
@@ -50,6 +50,7 @@ Methods:
 - Constructor
 - Getter
 - Setter
+
 3. Premiere
 Class turunan dari Cinema yang menambahkan informasi penayangan.
 Atribut tambahan:
@@ -66,7 +67,8 @@ Method data() digunakan untuk mengumpulkan seluruh data object Premiere agar dap
 Encapsulation
 Atribut pada class dibuat private dan diakses menggunakan getter dan setter.
 Dengan demikian, atribut tidak diakses secara langsung dari luar class, melainkan melalui method yang tersedia pada class.
-Design Diagram
+
+## Design Diagram
 +--------------------------------+
 |            Bioskop             |
 +--------------------------------+
@@ -106,7 +108,7 @@ Design Diagram
 | + data()                       |
 +--------------------------------+
 
-Data 5 Object Awal
+## Data 5 Object Awal
 Sebelum menerima input dari user, program membuat 5 object awal:
 1. Elemental
 2. Hoppers
@@ -123,7 +125,7 @@ Zootopia 2	Premiere 2	20:30
 Inside Out 2	Premiere 3	21:00
 
 
-Data Testcase
+## Data Testcase
 Setiap bahasa memiliki testcase tambahan yang berbeda untuk menguji fitur penambahan data.
 C++ - Encanto
 - Judul: Encanto
@@ -132,6 +134,7 @@ C++ - Encanto
 - Sutradara: Jared Bush, Byron Howard, Charise Castro Smith
 - Rumah Produksi: Walt Disney Pictures, Walt Disney Animation Studios
 - Tahun Rilis: 2021
+
 Data bioskop dan penayangan:
 - ID: 6
 - Nama Bioskop: VSA Cinema
@@ -140,6 +143,7 @@ Data bioskop dan penayangan:
 - Studio: Premiere 4
 - Jam Tayang: 17:00
 - Harga Tiket: 75000
+
 Java - Toy Story 5
 - Judul: Toy Story 5
 - Genre: Animasi, Petualangan, Komedi, Keluarga
@@ -147,6 +151,7 @@ Java - Toy Story 5
 - Sutradara: Andrew Stanton
 - Rumah Produksi: Walt Disney Pictures, Pixar Animation Studios
 - Tahun Rilis: 2026
+
 Data bioskop dan penayangan:
 - ID: 6
 - Nama Bioskop: VSA Cinema
@@ -155,6 +160,7 @@ Data bioskop dan penayangan:
 - Studio: Premiere 4
 - Jam Tayang: 17:00
 - Harga Tiket: 75000
+
 Python - Aladdin
 - Judul: Aladdin
 - Genre: Petualangan, Fantasi, Musikal, Keluarga
@@ -162,6 +168,7 @@ Python - Aladdin
 - Sutradara: Guy Ritchie
 - Rumah Produksi: Walt Disney Pictures
 - Tahun Rilis: 2019
+
 Data bioskop dan penayangan:
 - ID: 6
 - Nama Bioskop: VSA Cinema
@@ -170,6 +177,7 @@ Data bioskop dan penayangan:
 - Studio: Premiere 5
 - Jam Tayang: 17:00
 - Harga Tiket: 75000
+
 PHP - Maleficent
 - Judul: Maleficent
 - Genre: Fantasi, Petualangan, Aksi, Keluarga
@@ -178,6 +186,7 @@ PHP - Maleficent
 - Rumah Produksi: Walt Disney Pictures, Roth Films
 - Tahun Rilis: 2014
 - Foto Produk: gambar/maleficent.png
+
 Data bioskop dan penayangan:
 - ID: 6
 - Nama Bioskop: VSA Cinema
@@ -186,7 +195,8 @@ Data bioskop dan penayangan:
 - Studio: Premiere 5
 - Jam Tayang: 17:00
 - Harga Tiket: 75000
-Alur Program
+
+## Alur Program
 1. Program membuat array/list untuk menyimpan object Premiere.
 2. Program membuat 5 object awal sebelum menerima input user.
 3. Program menampilkan menu.
@@ -202,7 +212,7 @@ Menu pada C++, Java, dan Python:
 [2] Tampilkan Data
 [0] Keluar
 
-Implementasi Bahasa
+## Implementasi Bahasa
 Program dibuat dalam empat bahasa:
 - C++
 - Java
@@ -242,7 +252,7 @@ Data bertambah
      ↓
 Keluar
 
-Struktur Folder
+## Struktur Folder
 TP2DPBO2526C1/
 │
 ├── CPP/
@@ -275,19 +285,15 @@ TP2DPBO2526C1/
 │   └── gambar/
 │
 ├── Dokumentasi/
-│   ├── CPP_01_awal.png
-│   ├── CPP_02_add.png
-│   ├── JAVA_01_awal.png
-│   ├── JAVA_02_add.png
-│   ├── PYTHON_01_awal.png
-│   ├── PYTHON_02_add.png
-│   ├── PHP_01_awal.png
-│   └── PHP_02_add.png
+│   ├── CPP
+│   ├── JAVA
+│   ├── PYTHON
+│   ├── PHP
 │
 ├── README.md
 └── design_diagram.png
 
-Cara Menjalankan
+## Cara Menjalankan
 C++
 Masuk ke folder CPP, lalu compile:
 g++ main.cpp -o main
@@ -311,14 +317,15 @@ C:\xampp\htdocs\TP2\
 Kemudian aktifkan Apache pada XAMPP dan akses:
 http://localhost/TP2/PHP/
 
-Dokumentasi
+## Dokumentasi
 Dokumentasi program berupa screenshot hasil menjalankan program pada masing-masing bahasa.
 Dokumentasi menunjukkan:
 - 5 object awal berhasil ditampilkan.
 - Program dapat menambahkan data baru.
 - Data baru berhasil ditampilkan bersama data sebelumnya.
 Screenshot dokumentasi disimpan pada folder Dokumentasi.
-Catatan
+
+## Catatan
 - Program menggunakan konsep OOP dan Multilevel Inheritance.
 - Setiap class memiliki minimal 3 atribut.
 - Atribut menggunakan encapsulation dengan getter dan setter.
