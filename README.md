@@ -69,44 +69,7 @@ Atribut pada class dibuat private dan diakses menggunakan getter dan setter.
 Dengan demikian, atribut tidak diakses secara langsung dari luar class, melainkan melalui method yang tersedia pada class.
 
 ## Design Diagram
-+--------------------------------+
-|            Bioskop             |
-+--------------------------------+
-| - id                           |
-| - namaBioskop                  |
-| - lokasi                       |
-| - jumlahStudio                 |
-+--------------------------------+
-| + getter / setter              |
-+--------------------------------+
-               |
-               | extends
-               v
-+--------------------------------+
-|             Cinema             |
-+--------------------------------+
-| - judulFilm                    |
-| - genre                        |
-| - durasi                       |
-| - sutradara                    |
-| - rumahProduksi                |
-| - tahunRilis                   |
-+--------------------------------+
-| + getter / setter              |
-+--------------------------------+
-               |
-               | extends
-               v
-+--------------------------------+
-|            Premiere            |
-+--------------------------------+
-| - studio                       |
-| - jamTayang                    |
-| - hargaTiket                   |
-+--------------------------------+
-| + getter / setter              |
-| + data()                       |
-+--------------------------------+
+sesuai pada file desainDiagram.jpeg
 
 ## Data 5 Object Awal
 Sebelum menerima input dari user, program membuat 5 object awal:
