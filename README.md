@@ -271,14 +271,14 @@ TP2DPBO2526C1/
 C++
 Masuk ke folder CPP, lalu compile:
 g++ main.cpp -o main
-
 Kemudian jalankan program.
+
 Java
 Masuk ke folder Java:
 javac *.java
 java Main
-
 File hasil compile seperti .class tidak disertakan ke repository.
+
 Python
 Masuk ke folder Python:
 python main.py
@@ -287,7 +287,6 @@ PHP
 Masukkan folder project ke dalam folder htdocs XAMPP.
 Contoh:
 C:\xampp\htdocs\TP2\
-
 Kemudian aktifkan Apache pada XAMPP dan akses:
 http://localhost/TP2/PHP/
 
