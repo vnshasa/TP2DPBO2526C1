@@ -1,0 +1,14 @@
+ID: 6
+Nama Bioskop: VSA Cinema
+Lokasi: Bandung
+Jumlah Studio: 6
+Judul Film: Maleficent
+Genre: Fantasi, Petualangan, Aksi, Keluarga
+Durasi: 97 menit
+Foto Produk: gambar/maleficent.png
+Sutradara: Robert Stromberg
+Rumah Produksi: Walt Disney Pictures, Roth Films
+Tahun Rilis: 2014
+Studio: Premiere 4
+Jam Tayang: 19:00
+Harga Tiket: 75000
