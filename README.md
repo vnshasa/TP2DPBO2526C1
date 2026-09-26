@@ -265,7 +265,7 @@ TP2DPBO2526C1/
 │
 ├── README.md
 └── design_diagram.png
-...
+```
 
 ## Cara Menjalankan
 C++
