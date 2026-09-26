@@ -107,6 +107,7 @@ Data bioskop dan penayangan:
 - Jam Tayang: 17:00
 - Harga Tiket: 75000
 
+
 Java - Toy Story 5
 - Judul: Toy Story 5
 - Genre: Animasi, Petualangan, Komedi, Keluarga
@@ -124,6 +125,7 @@ Data bioskop dan penayangan:
 - Jam Tayang: 17:00
 - Harga Tiket: 75000
 
+
 Python - Aladdin
 - Judul: Aladdin
 - Genre: Petualangan, Fantasi, Musikal, Keluarga
@@ -140,6 +142,7 @@ Data bioskop dan penayangan:
 - Studio: Premiere 5
 - Jam Tayang: 17:00
 - Harga Tiket: 75000
+
 
 PHP - Maleficent
 - Judul: Maleficent
